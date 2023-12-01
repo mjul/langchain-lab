@@ -1,8 +1,9 @@
 # LangChain Lab
 Repo for LangChain experiments.
 
+- [`langserve_demo.py`](langserve_demo.py) demonstrates how to use LangServe to generate text and APIs for the language models. 
 
-# Installation
+## Installation
 
 This project uses Python 3.11.
 
