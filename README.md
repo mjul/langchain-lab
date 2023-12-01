@@ -6,13 +6,19 @@ Repo for LangChain experiments.
 
 This project uses Python 3.11.
 
-You can install LangChain and its CLI with `pip`:
+You can install LangChain and its CLI tooling including LangServe with `pip`:
 
 ```
     pip install langchain langchain-cli
 ```
 
-or 
+Also, access to a language model is required, e.g. the OpenAI GPT models via the API:
+
+```
+    pip install openai
+```
+
+Alternatively, you can install all the dependencies from the `requirements.txt` file:
 
 ```
     pip install -r requirements.txt
